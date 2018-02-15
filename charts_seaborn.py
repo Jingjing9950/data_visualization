@@ -52,4 +52,3 @@ sns.lmplot(x= 'total_bill',y = 'big_tip',data=tips,logistic=True,y_jitter=0.03).
 
 plt.title('Logistic Regression of big Tip vs Total Bill')
 plt.show()
-print(tips)
